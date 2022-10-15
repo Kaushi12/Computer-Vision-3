@@ -1,0 +1,4 @@
+1) A stride 2 conv with the default padding (1) and ks (3) will reduce the activation map dimension by half. Formula: (n + 2*pad - ks)//stride + 1. As the activation map dimension reduces by half we double the number of filters. This results in no overall change in computation as the network gets deeper and deeper.
+
+2)Increase in size of a convolutional kernel would necessarily increase the performance of a convolutional neural network. Kernel size is a hyperparameter and therefore by changing it we can increase or decrease performance. Suppose we have a deep neural network model which was trained on a vehicle detection problem.
+
